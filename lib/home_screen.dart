@@ -65,7 +65,7 @@ class HomeScreen extends StatelessWidget {
                             ),
                           ),
                           Text(
-                            'World',
+                            'Hi',
                             style: TextStyle(
                               color: Colors.black,
                             ),
