@@ -14,7 +14,7 @@ class HomeScreen extends StatelessWidget {
         title: Column(
           children: const [
             Text(
-              'Home Screen',
+              'Home',
               style: TextStyle(
                 color: Colors.black,
                 fontSize: 24,
@@ -49,6 +49,29 @@ class HomeScreen extends StatelessWidget {
                     border: Border.all(
                       color: Colors.black,
                       width: 1,
+                    ),
+                  ),
+                  child: Padding(
+                    padding: const EdgeInsets.all(16.0),
+                    child: Align(
+                      alignment: Alignment.topLeft,
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: const [
+                          Text(
+                            'Hello',
+                            style: TextStyle(
+                              color: Colors.black,
+                            ),
+                          ),
+                          Text(
+                            'World',
+                            style: TextStyle(
+                              color: Colors.black,
+                            ),
+                          ),
+                        ],
+                      ),
                     ),
                   ),
                 ),
